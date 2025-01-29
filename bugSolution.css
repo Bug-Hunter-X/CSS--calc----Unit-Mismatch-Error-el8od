@@ -1,0 +1,14 @@
+/* bugSolution.css */
+#container {
+  width: calc(100% - 20px); /* Correct: 20px has a unit */
+  border: 1px solid black;
+}
+
+.item {
+  width: calc(50% - 10px);
+  height: 100px;
+  background-color: lightblue;
+  box-sizing: border-box;
+  float: left;
+}
+/*The calc() function is correctly used with units here. */
