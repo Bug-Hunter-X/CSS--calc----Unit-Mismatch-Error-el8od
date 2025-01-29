@@ -1,0 +1,1 @@
+The CSS property `calc()` is used incorrectly with units.  For example, using `calc(100% - 10px)` is valid, but `calc(100% - 10)` is not because `10` lacks a unit.  Another common mistake is misplacing parentheses or operators, leading to unexpected results.
